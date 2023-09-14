@@ -1,0 +1,67 @@
+.header {
+  position: fixed;
+  justify-content: space-evenly;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(32, 195, 29);
+  color: white;
+  font-weight: 600;
+}
+
+.header input {
+  height: 40px;
+  width: 350px;
+  padding: 0 8px;
+  color: rgb(0, 0, 0);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.header-left {
+  display: flex;
+  cursor: pointer;
+}
+
+.header-left a {
+  display: flex;
+  color: rgb(255, 255, 255);
+  padding: 0 24px;
+  border-right: 1px solid #000;
+  cursor: pointer;
+  font-size: 16px;
+
+}
+
+.header-cart {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  padding: 0 24px;
+}
+
+@media (max-width: 480px) {
+  .header input {
+    display: none;
+  }
+
+  .header {
+    height: 40px;
+    max-width: 480px;
+  }
+
+  .header-left {
+    display: none;
+  }
+
+  /* Add your CSS styles for small screens here */
+}

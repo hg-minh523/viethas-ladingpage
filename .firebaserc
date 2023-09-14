@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "viethas-d1482": {
+      "hosting": {
+        "viethas": [
+          "viethas-d1482"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "viethas-d1482"
+  }
+}

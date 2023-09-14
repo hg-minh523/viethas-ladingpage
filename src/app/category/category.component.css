@@ -1,0 +1,26 @@
+.content-category {
+  background-color: #fff;
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 16px;
+  font-style: normal;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.content-category>p {
+  color: rgb(32, 195, 29);
+  padding: 16px 0;
+}
+
+.content-category>ul {
+  list-style: none;
+  padding: 0;
+}
+
+.content-category>ul>li {
+  padding: 6px;
+}
+
+  

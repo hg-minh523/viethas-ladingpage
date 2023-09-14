@@ -1,0 +1,17 @@
+<section>
+    <div [ngClass]="['content-news']">
+        <p>Góc tin tức</p>
+    </div>
+    <div [ngClass]="['content-news-main']">
+        <div [ngClass]="['content-news-main-left']">
+            <img src="../assets/news.jpeg" alt="">
+        </div>
+        <div [ngClass]="['content-news-main-right']">
+            <div *ngFor ="let news of newsList" [ngClass]="['content-news-main-right-item']">
+                <img src={{news.img}} alt="">
+                <p>{{news.content}}</p>
+            </div>
+            <a [ngClass]="['views-more']" href="">XEM THÊM</a>
+        </div>
+    </div>
+</section>

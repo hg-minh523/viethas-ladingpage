@@ -1,0 +1,46 @@
+.content-policy {
+    display: flex;
+  }
+
+.content-policy-left {
+    width: 50%;
+  }
+
+.content-policy-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+.content-policy-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+  }
+
+.content-policy-item>img {
+    height: 35px;
+    width: 35px;
+  }
+
+.content-policy-item>p {
+    justify-content: center;
+    padding: 0 10px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    font-weight: 700;
+  }
+
+.content-policy-row {
+    display: flex;
+    justify-content: space-around;
+  }
+
+.content-policy-right {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-evenly;
+  }

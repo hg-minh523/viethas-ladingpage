@@ -1,0 +1,18 @@
+<section>
+    <div class="content-favorite-product-title">
+        
+        <p>{{productListTittle}}</p>
+    </div>
+    <div class="content-favorite-product-main">
+        <div *ngFor=" let product of productList " class="content-favorite-product-item">
+            <div class="img">
+                <img src={{product.img}} alt="">
+            </div>
+            <p class="product-name">{{product.name}}</p>
+            <p class="product-price">{{product.price}}</p>
+            <div class="btn-wrap">
+                <a href="">Thêm vào giỏ hàng</a>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,12 @@
+.content {
+    margin-top: 82px;
+    padding: 0 16px;
+
+}
+
+.content-container {
+    padding: 16px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
